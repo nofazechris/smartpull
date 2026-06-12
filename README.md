@@ -1,6 +1,6 @@
 # SmartPull
 
-A lightweight BD tool built for Byte3's outbound pipeline. Pull leads from Apify, score them with Claude, and send cold emails — all in one place.
+A lightweight BD tool built for Bytez3's outbound pipeline. Pull leads from Apify, score them with Claude, and send cold emails — all in one place.
 
 ---
 
@@ -114,6 +114,6 @@ After sending, mark each lead as **Sent**, **Replied**, or **No Response** — t
 
 ## Notes
 
-Resend requires a verified sending domain in production. During development, `onboarding@resend.dev` works as the from address for testing. When you go live, swap it for your Byte3 domain in `Email.jsx`.
+Resend requires a verified sending domain in production. During development, `onboarding@resend.dev` works as the from address for testing. When you go live, swap it for your  domain in `Email.jsx`.
 
 Status (Sent / Replied / No Response) persists in app state for the session only — it resets on page refresh. If you need it to persist long term, the next step would be adding Supabase as a lightweight backend.
