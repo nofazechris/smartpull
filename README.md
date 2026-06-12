@@ -26,7 +26,6 @@ No backend. No database. No login. Runs entirely in the browser.
 **Install and run**
 
 ```bash
-unzip smartpull.zip
 cd smartpull
 npm install
 npm run dev
