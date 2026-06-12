@@ -8,7 +8,7 @@ A lightweight BD tool built for Byte3's outbound pipeline. Pull leads from Apify
 
 Most outbound tools are either too bloated or too basic. SmartPull sits in the middle — it's three pages, does one job well, and gets out of your way.
 
-- **Pull** — upload a CSV from Apify (or any source) and see your leads laid out cleanly as cards
+- **Pull** — upload a CSV from Apify and see your leads laid out cleanly as cards
 - **Score** — upload a Claude-scored version of that CSV and the app ranks them top to bottom automatically, colour coded by score
 - **Email** — click send on any card, the cold email template pre-fills with the founder's details, hit send via Resend
 
